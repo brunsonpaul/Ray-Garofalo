@@ -1,0 +1,98 @@
+// -----------------------
+// == Nav
+// -----------------------
+
+//------ Header Navigation ------//
+
+#top-menu a {
+    color: #1f5396;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: "Effra Medium", sans-serif;
+    font-weight: 600;
+}
+
+#top-menu li.current-menu-item > a {
+    font-weight: 700;
+}
+
+#main-header {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border-bottom: 4px solid rgba(214, 235, 241, 0.6);
+}
+
+#main-header .container {
+    width: 55%;
+    float: left;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+
+#main-header {
+}
+
+.et-fixed-header {
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+#et-top-navigation {
+    float: right;
+    margin-right: -200px;
+}
+
+//------ Member Navigation ------//
+
+.member-header {
+    width: 30%;
+    float: left;
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 10px;
+}
+
+.member-header ul {
+    right: 15px;
+    position: fixed;
+}
+
+.member-header li {
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+.member-header li a {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: "proxima-nova", sans-serif;
+}
+
+.member-header li > a {
+    padding-bottom: 29px;
+}
+
+.order-now {
+    background-color: #dc1f2e;
+    color: $white;
+    border-radius: 5px;
+    padding: 13px 35px !important;
+}
+
+.my-account {
+    color: $blue-green;
+}
+
+.et_fixed_nav #logo {
+    max-height: 67px;
+    margin-bottom: 0;
+    margin-top: -10px;
+}

@@ -1,0 +1,201 @@
+/* ==|======================
+   Layout/Home
+   ========================= */
+
+.hero {
+    h1 {
+          font-family: "Effra Heavy", sans-serif;
+          font-weight: 800;
+          color: rgba(255, 255, 255, 0.8);
+          font-size: 80px;
+          letter-spacing: 12px;
+    }
+    
+    h2 {
+          font-family: "Times New Roman", Georgia, Serif;
+          color: rgba(255, 255, 255, 0.8);
+          font-size: 54px;
+          letter-spacing: 5px;
+          padding-top: 20px;
+    }
+    
+    .et_pb_row {
+      padding: 90px 0px;
+    }
+    
+    span {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #c0daf1;
+      font-size: 22px;
+      letter-spacing: 2px;
+    }
+    
+    div.wpcf7 {
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+    }
+    
+    input, input.text, input.title, textarea, select {
+      padding: 15px;
+      border-radius: 5px;
+      border: none;
+      margin: 0 10px;
+      color: #4d9be1;
+      font-size: 16px;
+      max-width: 300px;
+    }
+    
+    input.wpcf7-form-control.wpcf7-submit {
+      background-color: #4d9be1;
+      color: #fff;
+      font-family: "Effra Heavy", sans-serif;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      padding: 13px 25px;
+    }
+}
+
+
+.info-blue {
+    
+     .et_pb_column.et_pb_column_4_4 {
+          background-color: #fff;
+          border-bottom: 20px solid #dc1f2e;
+          max-width: 600px;
+          padding: 40px;
+        margin: 0 auto;
+         margin-top: -200px;
+    }
+    
+    h3 {
+        color: #1b3c66;
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    a {
+      background-color: #4d9be1;
+      color: #fff;
+      font-family: "Effra Heavy", sans-serif;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      padding: 13px 25px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    
+    .et_pb_text {
+      margin-bottom: 0px;
+    }
+}
+
+.info-red {
+  
+    .et_pb_row {
+          width: 93%;
+          margin: 0 auto;
+          padding: 0px;
+          position: relative;
+          background-image: -moz-linear-gradient( 45deg, rgb(103,1,0) 0%, rgb(140,7,7) 55%, rgb(176,12,13) 100%);
+          background-image: -webkit-linear-gradient( 45deg, rgb(103,1,0) 0%, rgb(140,7,7) 55%, rgb(176,12,13) 100%);
+          background-image: -ms-linear-gradient( 45deg, rgb(103,1,0) 0%, rgb(140,7,7) 55%, rgb(176,12,13) 100%);
+          opacity: 0.87;
+    }
+    
+    .et_pb_text {
+          padding: 50px;
+          box-sizing: border-box;
+          margin: 0;
+    }
+    
+}
+
+.stand {
+    h2 {
+      font-family: "Effra Heavy", sans-serif;
+      font-weight: 800;
+      color: rgba(255, 255, 255, 1);
+      font-size: 30px;
+      letter-spacing: 6px;
+        position: relative;
+        padding-bottom: 20px;
+        
+        &:after {
+            background-color: #fff;
+          height: 3px;
+          width: 50px;
+          position: absolute;
+          content: "";
+          bottom: 0px;
+          left: 50%;
+          margin-left: -25px;
+          display: inline-block;
+            
+        }
+    }
+    
+    h3 {
+      font-family: "Times New Roman", Georgia, Serif;
+      color: #EC7979;
+      font-size: 28px;
+      letter-spacing: 3px;
+      padding-top: 20px;
+      padding-bottom: 0;
+    }
+    
+    a {
+       border: 3px solid #fff;
+      color: #fff;
+      font-family: "Effra Heavy", sans-serif;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      padding: 13px 30px;
+      margin-top: 30px;
+      display: inline-block;
+    }
+    
+    div {
+          border-top: 1px solid #fff;
+          max-width: 600px;
+          margin: 0 auto;
+          padding: 35px 0;
+          border-bottom: 1px solid #fff;
+    }
+        
+}
+
+.leader-section {
+    min-height: 540px;
+      border-bottom: 60px solid #F2F2F2;
+     .et_pb_row {
+          position: initial;
+        }
+}
+
+.leader {
+    div {
+        background-color: #fff;
+      max-width: 440px;
+      padding: 40px;
+      margin: 0 auto;
+      text-align: center;
+      bottom: -45px;
+      position: absolute;
+      left: 50%;
+      margin-left: -240px;
+    }
+    
+    h3 {
+      font-family: "Effra Heavy", sans-serif;
+      font-weight: 800;
+      color: #1c4177;
+      letter-spacing: 3px;
+    }
+    p {
+      color: #909090;
+    }
+}

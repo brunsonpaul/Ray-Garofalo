@@ -1,0 +1,127 @@
+// -----------------------
+// == Mixins
+// -----------------------
+
+
+//------ Float ------//
+
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+//------ Align ------//
+
+.center {
+    text-align: center;
+    align-content: center;
+}
+
+//------ Text ------//
+
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #7cc242;
+    border: 0px;
+    color: white;
+    padding: 18px 35px;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+
+.water-drop {
+    position: relative;
+    margin-bottom: 80px;
+    
+        &:after {
+            content: "";
+            position: absolute;
+            background: url(../images/icon_waterdrop.png)50% 50% no-repeat;
+            left: 50%;
+            margin-left: -8.5px;
+            bottom: -45px;
+            width: 17px;
+            height: 27px;
+        }
+}
+
+
+/*------------------------------------------------*/
+/*---------------[RESPONSIVE LAYOUTS]-------------*/
+/*------------------------------------------------*/
+
+@mixin huge-desktop {
+  @media only screen and ( min-width: 1405px ) {
+    @content;
+  }
+}
+
+// @media only screen and ( min-width: 981px )
+
+// @media only screen and ( min-width: 1200px )
+
+// @media only screen and ( min-width: 1100px )
+
+/*-------------------[1080px]------------------*/
+// @media only screen and ( min-width: 1100px ) and ( max-width: 1405px)
+
+@mixin desktop {
+  @media only screen and ( min-width: 981px ) and ( max-width: 1405px) {
+    @content;
+  }
+}
+
+// @media only screen and ( min-width: 981px )
+
+/*-------------------[960px]------------------*/
+// @media only screen and ( min-width: 981px ) and ( max-width: 1100px )
+
+/*-------------------[768px]------------------*/
+@media only screen and ( max-width: 980px ) {
+
+}
+
+
+@mixin tablet {
+  @media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
+    @content;
+  }
+}
+
+// @media screen and ( max-width: 782px )
+
+/*-------------------[480px]------------------*/
+
+@mixin phone-landscape {
+  @media only screen and ( max-width: 767px ) {
+    @content;
+  }
+}
+
+	/*-------------------[Menu]------------------*/
+	
+/*-------------------[320px]------------------*/
+@mixin phone-portrait {
+  @media only screen and ( max-width: 479px ) {
+    @content;
+  }
+}

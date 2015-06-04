@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Tools
+
+--------------------------------------------------------------*/
+
+@import url("../Divi/style.css");
+
+/* ========================================================= Fontface ===*/
+
+@font-face {
+    font-family: 'Effra Heavy';
+    src: url('../fonts/effra/effra-heavy/effra-heavy.eot');
+    src: url('../fonts/effra/effra-heavy/effra-heavy.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/effra/effra-heavy/effra-heavy.woff') format('woff'),
+         url('../fonts/effra/effra-heavy/effra-heavy.ttf') format('truetype'),
+         url('../fonts/effra/effra-heavy/effra-heavy.svg#1942_report1942_report') format('svg');
+    font-weight: 800;
+    font-style: 800;
+}
+
+@font-face {
+    font-family: 'Effra Medium';
+    src: url('../fonts/effra/effra-medium/effra-medium.eot');
+    src: url('../fonts/effra/effra-medium/effra-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/effra/effra-medium/effra-medium.woff') format('woff'),
+         url('../fonts/effra/effra-medium/effra-medium.ttf') format('truetype'),
+         url('../fonts/effra/effra-medium/effra-medium.svg#1942_report1942_report') format('svg');
+    font-weight: 600;
+    font-style: 600;
+}
+
+/*--------------------------------------------------------------
+1.0 Tools
+--------------------------------------------------------------*/
+
+/* Tools */
+@import "tools/base";
+@import "tools/grid";
+@import "tools/mixins";
+@import "tools/colors";
+
+/* Layout */
+@import "layout/nav";
+@import "layout/footer";
+@import "layout/home";
+// @import "layout/sidebar";

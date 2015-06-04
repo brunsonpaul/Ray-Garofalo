@@ -1,0 +1,5 @@
+01/14/15 3:32:04: main.scss - parse error: failed at `import "tools/grid";` line: 16
+01/14/15 3:49:28: main.scss - parse error: failed at `import "tools/grid";` line: 16
+01/14/15 3:50:28: main.scss - parse error: failed at `import "tools/grid";` line: 16
+01/14/15 11:02:48: main.scss - parse error: failed at `color: $teal: }` /home/aquiansp/public_html/dev/wp-content/themes/Aquiana/scss/tools/_colors.scss on line 20
+01/14/15 11:03:02: main.scss - parse error: failed at `color: $teal: }` /home/aquiansp/public_html/dev/wp-content/themes/Aquiana/scss/tools/_colors.scss on line 20
